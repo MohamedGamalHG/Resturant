@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Slider extends Model
+{
+        protected $fillable = ['title','sub_title','image'];
+        protected $hidden = ['created_at','update_at'];
+}
