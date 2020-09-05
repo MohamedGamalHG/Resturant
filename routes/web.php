@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('welcome');
+Route::post('/reserve', 'ReservationController@reserve')->name('user.reserve');
 Auth::routes();
 
 

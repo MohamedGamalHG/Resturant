@@ -33,7 +33,9 @@
                                         <td>{{$key + 1}}</td>
                                         <td>{{$value->title}}</td>
                                         <td>{{$value->sub_title}}</td>
-                                        <td>{{$value->image}}</td>
+                                        <td><img class="img-responsive img-thumbnail"
+                                         src="{{asset('backend/Images/'.$value->image)}}"
+                                         style="height: 100px;width: 100px;"></td>
                                         <td><a href="{{route('slider.edit',$value->id)}}" class="btn btn-info">Edit</a>
                                             <form id="form-delete-{{$value->id}}" method="post"
                                              action="{{route('slider.destroy',$value->id)}}" style="display: none">

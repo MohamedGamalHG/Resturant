@@ -37,7 +37,9 @@
                                         <td>{{$value->name}}</td>
                                         <td>{{$value->description}}</td>
                                         <td>{{$value->price}}</td>
-                                        <td>{{$value->image}}</td>
+                                        <td><img class="img-responsive img-thumbnail"
+                                         src="{{asset('backend/Images/Item/'.$value->image)}}"
+                                            style="height: 100px;width: 100px;"></td>
                                         <td>{{$array[$i]}}</td>
                                         <td><a href="{{route('item.edit',$value->id)}}" class="btn btn-info">Edit</a>
                                             <form id="form-delete-{{$value->id}}" method="post"
