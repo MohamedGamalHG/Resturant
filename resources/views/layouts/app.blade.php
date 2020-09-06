@@ -98,6 +98,7 @@
 
     <script src="{{asset('public/backend/demo/demo.js')}}"></script>
 
+
     @stack('script')
 
     <script>
@@ -278,6 +279,6 @@
 
         });
     </script>
-
+    {!! Toastr::message() !!}
 </body>
 </html>
