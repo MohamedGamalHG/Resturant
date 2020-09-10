@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d939ced-d4a6-4b25-ab46-bd44960233c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/reserve/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/contact/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/contact/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/partial/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partial/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,19 +156,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/reserve" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/contact" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Kitchen\app\Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Kitchen\resources\views\admin\contact" />
       <recent name="C:\xampp\htdocs\Kitchen\resources\views\admin\reserve" />
       <recent name="C:\xampp\htdocs\Kitchen\resources\views\admin\item" />
       <recent name="C:\xampp\htdocs\Kitchen\resources\views\admin\category" />
       <recent name="C:\xampp\htdocs\Kitchen\resources\views\admin\slider" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Kitchen\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -197,6 +198,8 @@
       <workItem from="1599130691567" duration="3419000" />
       <workItem from="1599305833231" duration="4371000" />
       <workItem from="1599319818927" duration="5783000" />
+      <workItem from="1599517414365" duration="2138000" />
+      <workItem from="1599734286125" duration="636000" />
     </task>
     <servers />
   </component>
@@ -213,6 +216,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="18" key="#CLI_Interpreters" timestamp="1598631283274">
@@ -223,10 +227,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="520" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1598958510229" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599394845327">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599734907865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599394845327" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599734907865" />
     <state x="518" y="287" key="NewPhpFileDialog" timestamp="1598788077814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -4,8 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Reservation;
+use App\Notifications\ReservationConfirmed;
 use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Notification;
 
 class ReservationController extends Controller
 {
@@ -18,6 +20,7 @@ class ReservationController extends Controller
     {
         $reserve = Reservation::find($id);
         $reserve->update(['status'=>true]);
+        Notification::route('mail',$reserve->email)->notify(new ReservationConfirmed());
         Toastr::success('Reservation successfully confirmed','Success',["postionClass"=>"toast-top-center"]);
         return redirect()->back();
     }

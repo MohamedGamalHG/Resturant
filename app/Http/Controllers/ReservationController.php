@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Reservation;
 use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Notification;
 
 class ReservationController extends Controller
 {
@@ -26,7 +27,6 @@ class ReservationController extends Controller
                 'message' => $req->message,
                 'status' => false
             ]);
-
             Toastr::success('Reservation request sent successfully ,we will confirm you soon',
                 'Success',["postionClass"=>"toast-top-center"]);
             return redirect()->back();

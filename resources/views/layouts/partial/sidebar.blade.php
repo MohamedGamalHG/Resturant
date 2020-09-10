@@ -39,6 +39,12 @@
                     <p>Reservations</p>
                 </a>
             </li>
+            <li class="{{Request::is('admin/contact') ? 'active' : ''}} ">
+                <a class="nav-link" href="{{route('admin.contact')}}">
+                    <i class="material-icons">message</i>
+                    <p>Contact Message</p>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
